@@ -6,4 +6,8 @@
 wp.domReady( () => {
 	wp.blocks.unregisterBlockType( 'core/media-text' );
 	wp.blocks.unregisterBlockType( 'core/search' );
+	wp.blocks.unregisterBlockType( 'core/column' );
+	wp.blocks.unregisterBlockType( 'core/columns' );
+	wp.blocks.unregisterBlockType( 'core/text-columns' );
+	wp.blocks.unregisterBlockType( 'core/heading' );
 } );
